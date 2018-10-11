@@ -1,0 +1,22 @@
+//class="table"
+//style bootstap table
+
+//table-bordered
+//adds border to the table
+
+//table-striped
+//adds color to the alternative rows
+
+//table-hover
+//changes color on highlight
+
+//colspan
+//defines how many colors that particular td will take
+
+//class="text-center"
+//to align text at center
+
+//class="text-left"         //by default it's text-left
+//to align text to left
+
+//class="col-md-2"          //how many columns should the column occupy

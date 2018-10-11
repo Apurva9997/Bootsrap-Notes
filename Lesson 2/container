@@ -1,0 +1,15 @@
+
+<div class="container">
+
+//adds padding around itself and everything it contains
+//bootsrap requires container div for grid system
+
+<div class="container-fluid">
+
+<div class="page-header">
+//add space around the text as well as enlarge text inside it and add underline after the text is displayed
+
+<div class="jumbotron">
+
+//enlarge font, puts everything inside a grey box, fills the complete screen or the container it contains within
+

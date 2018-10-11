@@ -1,0 +1,89 @@
+//If you want to create a responsive site which is going to scale
+
+//create a new div with class name=row
+
+//example using same size divs
+
+<div class="container">
+    //12 columns system
+    //section all elements in versions of 12
+    //large screens  1200 pixels or above
+    //medium sized screens 992 pixels to 1200 pixels
+    //small screens 768 pixels to 992 pixels
+    //extra small screens less than 768 pixels
+    <div class="row">
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+        <h3>Column 1</h3>
+            Div 1
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                <h3>Column 2</h3>
+                    Div 2
+        </div>
+        //Column messes up at some column
+        //then add this
+        <div class="clearfix visible-sm"></div>
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                <h3>Column 3</h3>
+                    Div 3
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                <h3>Column 4</h3>
+                    Div 4
+        </div>
+    </div>
+
+</div>
+
+//example using different size divs
+
+<div class="container">
+    <div class="row">
+        <div class="col-lg-2 col-md-2 col-sm-4 col-xs-12">
+        <h3><a href="#col1Content" data-toggle="collapse">Column 1</a></h3>
+            <div id="col1Content" class="collapse">//if you want the div to be collapsed when it first loads else use collapse in
+                Div 1
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-8 col-xs-12">
+                <h3><a href="#col1Content" data-toggle="collapse">Column 2</a></h3>
+                    <div id="col1Content" class="collapse in">//if you want the div to be collapsed when it first loads else use collapse in
+                        Div 2
+                    </div>
+        </div>
+        //Column messes up at some column
+        //then add this
+        <div class="clearfix visible-sm"></div>
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                <h3><a href="#col1Content" data-toggle="collapse">Column 3</a></h3>
+                    <div id="col1Content" class="collapse">//if you want the div to be collapsed when it first loads else use collapse in
+                        Div 3
+                    </div>
+        </div>
+    </div>
+
+</div>
+
+//example 3
+
+<div class="container">
+//Well adds rounded border and color
+    <div class="well hidden-sm hidden-md hidden-lg">
+        <p>Screen &lt; 768px</p>
+    </div>
+    <div class="well hidden-sm hidden-md hidden-lg">
+            <p>Screen &gt; 768px and &lt; 992px</p>
+    </div>
+    <div class="well hidden-sm hidden-md hidden-lg">
+            <p>Screen &gt; 992px and &lt; 1200px</p>
+    </div>
+    <div class="well hidden-sm hidden-md hidden-lg">
+            <p>Screen &gt; 1200px</p>
+    </div>
+</div>
+
+//Using offset
+<div class="col-md-6 col-md-offset-6">my div</div>
+//is equivalent to
+<div class="col-md-6>
+<div class="col-md-6">my div</div>

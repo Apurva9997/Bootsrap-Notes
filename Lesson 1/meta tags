@@ -1,0 +1,4 @@
+
+<meta charset="UTF-8"> //adds utf-8 characters support
+<meta http-equiv="X-UA-Compatible" content="IE=edge"> //check for latest rendering engine
+<meta name="viewport" content="width = device-width, initial-scale =1"> //sets viewport parameter and default scaling to 1

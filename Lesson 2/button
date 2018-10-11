@@ -1,0 +1,30 @@
+
+<a href="#" class btn btn-default btn-lg" role="button">More info</a>
+
+<button type="submit" class="btn btn-danger" role="button">Button</button>
+
+<input type="button" value="Info" class="btn btn-info">
+
+<button type="submit" class="btn-primary btn-sm" role="button">Primary</button>
+
+<button type="submit" class="btn btn-success btn-xs" role="button">Success</button>
+
+<button type="submit" class="btn btn-warning btn-lg" role="button">Warning</button>
+
+<button type="submit" class="btn btn-link btn-lg" role="button">Link</button>
+
+//disable button
+
+<button type="button" class="btn btn-lg btn-primary" disabled="disabled">Primary</button>
+
+<a href="#" class btn btn-default btn-lg disabled" role="button" >Link</a>
+
+//Button Group
+//Works like radio button
+
+<div class="btn-group btn-group-lg" role="group">
+    <button type="button" class="btn btn-default">Small</button>
+    <button type="button" class="btn btn-default">Medium</button>
+    <button type="button" class="btn btn-default">Large</button>
+</div>
+
